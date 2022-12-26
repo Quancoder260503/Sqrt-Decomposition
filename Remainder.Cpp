@@ -22,7 +22,7 @@ int main(){
            }
            else{
                long long ans = 0;
-               if(x > sq){
+               if(x >= sq){
                     for(int j = y; j <= sz; j += x){
                          ans+=a[j];
                     }
